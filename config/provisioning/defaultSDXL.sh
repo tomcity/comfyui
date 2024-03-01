@@ -26,6 +26,8 @@ NODES=(
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
     #"https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
     "https://github.com/FizzleDorf/ComfyUI_FizzNodes"
+    "https://github.com/crystian/ComfyUI-Crystools"
+    "https://github.com/kijai/ComfyUI-KJNodes"
 )
 
 CHECKPOINT_MODELS=(
