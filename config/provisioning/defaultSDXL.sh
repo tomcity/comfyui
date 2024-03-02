@@ -14,20 +14,23 @@ NODES=(
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
-    #"https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/cubiq/ComfyUI_essentials"
     "https://github.com/Nuked88/ComfyUI-N-Nodes"
     "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
     "https://github.com/Davemane42/ComfyUI_Dave_CustomNode"
-    #"https://github.com/mav-rik/facerestore_cf"
+    "https://github.com/mav-rik/facerestore_cf"
     "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
-    #"https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
+    "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
     "https://github.com/FizzleDorf/ComfyUI_FizzNodes"
     "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/kijai/ComfyUI-KJNodes"
+    "https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative"
+    "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb"
+    "https://github.com/cubiq/ComfyUI_InstantID"
 )
 
 CHECKPOINT_MODELS=(
@@ -82,9 +85,6 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_lineart.safetensors"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_sketch.safetensors"
-    #"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors"
-    #"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin"
-    #"https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors"
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
