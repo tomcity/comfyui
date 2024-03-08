@@ -103,6 +103,10 @@ IPADAPTER_MODELS=(
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin"
 )
 
+CLIP_VISION=(
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors"
+)
+
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
 function provisioning_start() {
@@ -129,6 +133,10 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
+    provisioning_get_clip_vision_model \
+        "/opt/ComfyUI/models/clip_vision" \
+        "${CLIP_VISION[@]}" \
+        "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
     provisioning_print_end
 }
 
@@ -173,6 +181,31 @@ function provisioning_get_models() {
         provisioning_download "${url}" "${dir}"
         printf "\n"
     done
+}
+
+function provisioning_get_clip_vision_model() {
+    if [[ -z $2 ]]; then return 1; fi
+    filename="$3"
+    dir="$1"
+    mkdir -p "$dir"
+    shift
+    if [[ $DISK_GB_ALLOCATED -ge $DISK_GB_REQUIRED ]]; then
+        arr=("$@")
+    else
+        printf "WARNING: Low disk space allocation - Only the first model will be downloaded!\n"
+        arr=("$1")
+    fi
+    
+    printf "Downloading %s model(s) to %s...\n" "${#arr[@]}" "$dir"
+    for url in "${arr[@]}"; do
+        printf "Downloading: %s\n" "${url}"
+        provisioning_download_rename "${url}" "${dir}" "${filenname}"
+        printf "\n"
+    done
+}
+
+function provisioning_download_rename() {
+    wget -O "$3" -qnc --show-progress --progress=bar -P "$2" "$1"
 }
 
 function provisioning_print_header() {
