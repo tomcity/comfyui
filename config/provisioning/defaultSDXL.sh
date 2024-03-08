@@ -31,6 +31,7 @@ NODES=(
     "https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative"
     "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb"
     "https://github.com/cubiq/ComfyUI_InstantID"
+    "https://github.com/matan1905/ComfyUI-Serving-Toolkit"
 )
 
 CHECKPOINT_MODELS=(
