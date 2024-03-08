@@ -130,10 +130,7 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
-    provisioning_get_clip_vision_model \
-        "/opt/ComfyUI/models/clip_vision" \
-        "${CLIP_VISION[@]}" \
-        "CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+
     provisioning_print_end
 }
 
