@@ -32,6 +32,7 @@ NODES=(
     "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb"
     "https://github.com/cubiq/ComfyUI_InstantID"
     "https://github.com/matan1905/ComfyUI-Serving-Toolkit"
+    "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet"
 )
 
 CHECKPOINT_MODELS=(
