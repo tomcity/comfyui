@@ -59,9 +59,40 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/135867"
     # xl_more_art-full_v1_xl
     "https://civitai.com/api/download/models/152309"
+    # LookingAtViewer SDXL
+    "https://civitai.com/api/download/models/259540"
+    # RMSDXL EnhanceXL
+    "https://civitai.com/api/download/models/268857"
+    # Pascal Campion SDXL
+    "https://civitai.com/api/download/models/154131"
+    # ReapirSliderXL
+    "https://sliders.baulab.info/weights/xl_sliders/repair_slider.pt"
+    # SDXL Lighting4Step
     "https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_4step_lora.safetensors"
+    # FaceID SDXL
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl_lora.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors"
+    # FaceID SD1.5
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15_lora.safetensors"
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
+    # SD1.5 AddMoreDetail
+    "https://civitai.com/api/download/models/87153"
+    # SD1.5 DetailTweaker
+    "https://civitai.com/api/download/models/62833"
+    # SD1.5 EyeSizeSlider
+    "https://civitai.com/api/download/models/140768"
+    # SD1.5 SkinToneSlider
+    "https://civitai.com/api/download/models/121575"
+    # SD1.5 AgeSlider
+    "https://civitai.com/api/download/models/143150"
+    # SD1.5 ColorTemperatureSlider
+    "https://civitai.com/api/download/models/139548"
+    # SD1.5 MuscleSlider
+    "https://civitai.com/api/download/models/121658"
+    # SD1.5 WeightSlider
+    "https://civitai.com/api/download/models/126824"
+    # SD1.5 EmotionSlider
+    "https://civitai.com/api/download/models/129821"
 )
 
 VAE_MODELS=(
@@ -104,11 +135,19 @@ CONTROLNET_MODELS=(
 )
 
 IPADAPTER_MODELS=(
+    # SDXL
     "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus_sdxl_vit-h.safetensors"
     "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors"
     "https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl.bin"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin"
+    # SD1.5
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors"
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors"
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors"
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15.bin"
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin"
+
 )
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
