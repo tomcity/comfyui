@@ -34,6 +34,12 @@ NODES=(
     "https://github.com/cubiq/ComfyUI_FaceAnalysis"
     "https://github.com/matan1905/ComfyUI-Serving-Toolkit"
     "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet"
+    "https://github.com/BadCafeCode/masquerade-nodes-comfyui"
+    "https://github.com/diontimmer/ComfyUI-Vextra-Nodes"
+    "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
+    "https://github.com/sipherxyz/comfyui-art-venture"
+    "https://github.com/Acly/comfyui-inpaint-nodes"
+    "https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM"
 )
 
 CHECKPOINT_MODELS=(
