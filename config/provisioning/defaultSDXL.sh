@@ -48,6 +48,7 @@ NODES=(
     "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
     "https://github.com/evanspearman/ComfyMath"
     "https://github.com/if-ai/ComfyUI-IF_AI_tools"
+    "https://github.com/shiimizu/ComfyUI-PhotoMaker-Plus"
 )
 
 CHECKPOINT_MODELS=(
