@@ -40,6 +40,14 @@ NODES=(
     "https://github.com/sipherxyz/comfyui-art-venture"
     "https://github.com/Acly/comfyui-inpaint-nodes"
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM"
+    "https://github.com/brianfitzgerald/style_aligned_comfy"
+    "https://github.com/Nourepide/ComfyUI-Allor"
+    "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
+    "https://github.com/BlenderNeko/ComfyUI_Noise"
+    "https://github.com/shadowcz007/comfyui-mixlab-nodes"
+    "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
+    "https://github.com/evanspearman/ComfyMath"
+    "https://github.com/if-ai/ComfyUI-IF_AI_tools"
 )
 
 CHECKPOINT_MODELS=(
@@ -48,6 +56,8 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
     "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors"
+    "https://huggingface.co/dataautogpt3/ProteusV0.4/resolve/main/ProteusV0.4.safetensors"
+    "https://huggingface.co/dataautogpt3/Proteus-RunDiffusion/resolve/main/Proteus-RunDiffusion.safetensors"
 )
 
 LORA_MODELS=(
@@ -99,6 +109,7 @@ VAE_MODELS=(
     #"https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
     #"https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
     "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
+    #"https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl.vae.safetensors"
     #"https://huggingface.co/madebyollin/sdxl-vae-fp16-fix/resolve/main/sdxl_vae.safetensors"
 )
 
