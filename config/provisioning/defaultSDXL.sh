@@ -59,6 +59,7 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors"
     "https://huggingface.co/dataautogpt3/ProteusV0.4/resolve/main/ProteusV0.4.safetensors"
     "https://huggingface.co/dataautogpt3/Proteus-RunDiffusion/resolve/main/Proteus-RunDiffusion.safetensors"
+    "https://civitai.com/api/download/models/265938"
     # Dreamshaper8 (SD 1.5)
     "https://civitai.com/api/download/models/128713"
     # Dreamshaper8 Inpainting (SD 1.5)
