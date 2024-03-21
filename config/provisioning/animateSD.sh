@@ -27,8 +27,8 @@ NODES=(
     "https://github.com/if-ai/ComfyUI-IF_AI_tools"
     "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
-    #"https://github.com/cubiq/ComfyUI_InstantID"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/kijai/ComfyUI-KJNodes"
     # KRITA
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
@@ -39,7 +39,7 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
+    #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
@@ -52,12 +52,11 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/87153"
     # detail_tweaker (SD1.5)
     "https://civitai.com/api/download/models/62833"
-
 )
 
 VAE_MODELS=(
-    "https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
-    "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
+    #"https://huggingface.co/stabilityai/sd-vae-ft-ema-original/resolve/main/vae-ft-ema-560000-ema-pruned.safetensors"
+    #"https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
     #"https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
 )
 
@@ -85,6 +84,7 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
+    "https://huggingface.co/crishhh/animatediff_controlnet/resolve/main/controlnet_checkpoint.ckpt"
     # KRITA (SD1.5)
     "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_lora_rank128_v11f1e_sd15_tile_fp16.safetensors"
     "https://huggingface.co/hr16/ControlNet-HandRefiner-pruned/resolve/main/control_sd15_inpaint_depth_hand_fp16.safetensors"
