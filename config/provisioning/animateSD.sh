@@ -16,6 +16,7 @@ NODES=(
     "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
     "https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative"
+    "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb"
     # ADDITIONAL
     "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
     "https://github.com/rgthree/rgthree-comfy"
