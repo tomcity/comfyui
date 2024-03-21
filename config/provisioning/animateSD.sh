@@ -16,8 +16,10 @@ NODES=(
     "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
     "https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative"
-    "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb"
+    "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
+    "https://github.com/FizzleDorf/ComfyUI_FizzNodes"
     # ADDITIONAL
+    "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb"
     "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
     "https://github.com/rgthree/rgthree-comfy"
     "https://github.com/jags111/efficiency-nodes-comfyui"
@@ -25,7 +27,7 @@ NODES=(
     "https://github.com/if-ai/ComfyUI-IF_AI_tools"
     "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
-    "https://github.com/cubiq/ComfyUI_InstantID"
+    #"https://github.com/cubiq/ComfyUI_InstantID"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     # KRITA
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
