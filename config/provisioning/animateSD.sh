@@ -30,6 +30,9 @@ NODES=(
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/receyuki/comfyui-prompt-reader-node"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    "https://github.com/WASasquatch/was-node-suite-comfyui"
+    "https://github.com/tinyterra/ComfyUI_tinyterraNodes"
     # KRITA
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
