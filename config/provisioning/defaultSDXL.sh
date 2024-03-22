@@ -59,21 +59,25 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors"
     "https://huggingface.co/dataautogpt3/ProteusV0.4/resolve/main/ProteusV0.4.safetensors"
     "https://huggingface.co/dataautogpt3/Proteus-RunDiffusion/resolve/main/Proteus-RunDiffusion.safetensors"
+    # ProtoVision XL (SDXL)
     "https://civitai.com/api/download/models/265938"
     # Dreamshaper8 (SD 1.5)
-    "https://civitai.com/api/download/models/128713"
+    #"https://civitai.com/api/download/models/128713"
     # Dreamshaper8 Inpainting (SD 1.5)
-    "https://civitai.com/api/download/models/131004"
+    #"https://civitai.com/api/download/models/131004"
+    # CASCADE
+    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
+    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
 )
 
 LORA_MODELS=(
-    # advertising_award_xl
+    # SDXL advertising_award_xl
     #"https://civitai.com/api/download/models/254250"
-    # storyboard_sketch_xl
+    # SDXL storyboard_sketch_xl
     "https://civitai.com/api/download/models/182532"
-    # add-detail-xl
+    # SDXL add-detail-xl
     "https://civitai.com/api/download/models/135867"
-    # xl_more_art-full_v1_xl
+    # SDXL xl_more_art-full_v1_xl
     "https://civitai.com/api/download/models/152309"
     # LookingAtViewer SDXL
     "https://civitai.com/api/download/models/259540"
@@ -81,7 +85,7 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/268857"
     # Pascal Campion SDXL
     "https://civitai.com/api/download/models/154131"
-    # ReapirSliderXL
+    # ReapirSlider SDXL
     "https://sliders.baulab.info/weights/xl_sliders/repair_slider.pt"
     # SDXL Lighting4Step
     "https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_4step_lora.safetensors"
@@ -148,6 +152,12 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_lineart.safetensors"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_sketch.safetensors"
+    # SDXL
+    "https://huggingface.co/TTPlanet/TTPLanet_SDXL_Controlnet_Tile_Realistic_V1/resolve/main/TTPLANET_Controlnet_Tile_realistic_v1_fp16.safetensors"
+    # CASCADE
+    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/controlnet/canny.safetensors"
+    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/controlnet/inpainting.safetensors"
+    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/controlnet/super_resolution.safetensors"
 )
 
 IPADAPTER_MODELS=(
