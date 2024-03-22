@@ -49,6 +49,7 @@ NODES=(
     "https://github.com/evanspearman/ComfyMath"
     "https://github.com/if-ai/ComfyUI-IF_AI_tools"
     "https://github.com/shiimizu/ComfyUI-PhotoMaker-Plus"
+    "https://github.com/gokayfem/ComfyUI_VLM_nodes"
 )
 
 CHECKPOINT_MODELS=(
