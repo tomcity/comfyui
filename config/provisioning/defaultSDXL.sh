@@ -64,9 +64,9 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
-    "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors"
-    "https://huggingface.co/dataautogpt3/ProteusV0.4/resolve/main/ProteusV0.4.safetensors"
-    "https://huggingface.co/dataautogpt3/Proteus-RunDiffusion/resolve/main/Proteus-RunDiffusion.safetensors"
+    #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors"
+    #"https://huggingface.co/dataautogpt3/ProteusV0.4/resolve/main/ProteusV0.4.safetensors"
+    #"https://huggingface.co/dataautogpt3/Proteus-RunDiffusion/resolve/main/Proteus-RunDiffusion.safetensors"
     # ProtoVision XL (SDXL)
     "https://civitai.com/api/download/models/265938"
     # Dreamshaper8 (SD 1.5)
@@ -76,6 +76,7 @@ CHECKPOINT_MODELS=(
     # CASCADE
     "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
     "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
+    # SUPIR UPSCALE
     "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0F.ckpt"
     "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
 )
