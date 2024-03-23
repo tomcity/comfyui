@@ -7,49 +7,56 @@
 
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
+    # ANIMATION
+    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
+    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
+    "https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative"
+    "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation"
+    "https://github.com/FizzleDorf/ComfyUI_FizzNodes"
+    # ADDITIONAL
+    "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb"
+    "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
     "https://github.com/rgthree/rgthree-comfy"
     "https://github.com/jags111/efficiency-nodes-comfyui"
+    "https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/if-ai/ComfyUI-IF_AI_tools"
+    "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/receyuki/comfyui-prompt-reader-node"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
-    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
-    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
-    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
+    # KRITA
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
-    "https://github.com/cubiq/ComfyUI_essentials"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    "https://github.com/Acly/comfyui-inpaint-nodes"
+    #"https://github.com/Acly/comfyui-tooling-nodes"
+    # MORE ADDITIONALS
+    "https://github.com/gokayfem/ComfyUI_VLM_nodes"
+    "https://github.com/kijai/ComfyUI-SUPIR"
+    "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
+    "https://github.com/shiimizu/ComfyUI-PhotoMaker-Plus"
+    "https://github.com/cubiq/ComfyUI_InstantID"
+    "https://github.com/cubiq/ComfyUI_FaceAnalysis"
+    "https://github.com/mav-rik/facerestore_cf"
+    "https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM"
     "https://github.com/Nuked88/ComfyUI-N-Nodes"
     "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
     "https://github.com/Davemane42/ComfyUI_Dave_CustomNode"
-    "https://github.com/mav-rik/facerestore_cf"
-    "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
-    "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved"
-    "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
-    "https://github.com/FizzleDorf/ComfyUI_FizzNodes"
     "https://github.com/crystian/ComfyUI-Crystools"
-    "https://github.com/kijai/ComfyUI-KJNodes"
-    "https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative"
-    "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb"
-    "https://github.com/cubiq/ComfyUI_InstantID"
-    "https://github.com/cubiq/ComfyUI_FaceAnalysis"
-    "https://github.com/matan1905/ComfyUI-Serving-Toolkit"
     "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet"
     "https://github.com/BadCafeCode/masquerade-nodes-comfyui"
     "https://github.com/diontimmer/ComfyUI-Vextra-Nodes"
-    "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
-    "https://github.com/sipherxyz/comfyui-art-venture"
-    "https://github.com/Acly/comfyui-inpaint-nodes"
-    "https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM"
     "https://github.com/brianfitzgerald/style_aligned_comfy"
     "https://github.com/Nourepide/ComfyUI-Allor"
-    "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
     "https://github.com/BlenderNeko/ComfyUI_Noise"
     "https://github.com/shadowcz007/comfyui-mixlab-nodes"
-    "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
     "https://github.com/evanspearman/ComfyMath"
-    "https://github.com/if-ai/ComfyUI-IF_AI_tools"
-    "https://github.com/shiimizu/ComfyUI-PhotoMaker-Plus"
-    "https://github.com/gokayfem/ComfyUI_VLM_nodes"
+    #"https://github.com/matan1905/ComfyUI-Serving-Toolkit"
+    #"https://github.com/sipherxyz/comfyui-art-venture"
 )
 
 CHECKPOINT_MODELS=(
@@ -69,6 +76,8 @@ CHECKPOINT_MODELS=(
     # CASCADE
     "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
     "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
+    "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0F.ckpt"
+    "https://huggingface.co/camenduru/SUPIR/resolve/main/SUPIR-v0Q.ckpt"
 )
 
 LORA_MODELS=(
@@ -88,32 +97,33 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/154131"
     # ReapirSlider SDXL
     "https://sliders.baulab.info/weights/xl_sliders/repair_slider.pt"
-    # SDXL Lighting4Step
+    # SDXL Lighting4Step / Lighting8Step
     "https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_4step_lora.safetensors"
+    "https://huggingface.co/ByteDance/SDXL-Lightning/resolve/main/sdxl_lightning_8step_lora.safetensors"
     # FaceID SDXL
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl_lora.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors"
     # FaceID SD1.5
-    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15_lora.safetensors"
-    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
+    #"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15_lora.safetensors"
+    #"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
     # SD1.5 AddMoreDetail
-    "https://civitai.com/api/download/models/87153"
+    #"https://civitai.com/api/download/models/87153"
     # SD1.5 DetailTweaker
-    "https://civitai.com/api/download/models/62833"
+    #"https://civitai.com/api/download/models/62833"
     # SD1.5 EyeSizeSlider
-    "https://civitai.com/api/download/models/140768"
+    #"https://civitai.com/api/download/models/140768"
     # SD1.5 SkinToneSlider
-    "https://civitai.com/api/download/models/121575"
+    #"https://civitai.com/api/download/models/121575"
     # SD1.5 AgeSlider
-    "https://civitai.com/api/download/models/143150"
+    #"https://civitai.com/api/download/models/143150"
     # SD1.5 ColorTemperatureSlider
-    "https://civitai.com/api/download/models/139548"
+    #"https://civitai.com/api/download/models/139548"
     # SD1.5 MuscleSlider
-    "https://civitai.com/api/download/models/121658"
+    #"https://civitai.com/api/download/models/121658"
     # SD1.5 WeightSlider
-    "https://civitai.com/api/download/models/126824"
+    #"https://civitai.com/api/download/models/126824"
     # SD1.5 EmotionSlider
-    "https://civitai.com/api/download/models/129821"
+    #"https://civitai.com/api/download/models/129821"
 )
 
 VAE_MODELS=(
@@ -155,6 +165,11 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_sketch.safetensors"
     # SDXL
     "https://huggingface.co/TTPlanet/TTPLanet_SDXL_Controlnet_Tile_Realistic_V1/resolve/main/TTPLANET_Controlnet_Tile_realistic_v1_fp16.safetensors"
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors"
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors"
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-recolor-rank256.safetensors"
+    "https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-sketch-rank256.safetensors"
+    "https://huggingface.co/thibaud/controlnet-openpose-sdxl-1.0/resolve/main/control-lora-openposeXL2-rank256.safetensors"
     # CASCADE
     "https://huggingface.co/stabilityai/stable-cascade/resolve/main/controlnet/canny.safetensors"
     "https://huggingface.co/stabilityai/stable-cascade/resolve/main/controlnet/inpainting.safetensors"
@@ -169,11 +184,11 @@ IPADAPTER_MODELS=(
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl.bin"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin"
     # SD1.5
-    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors"
-    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors"
-    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors"
-    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15.bin"
-    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin"
+    #"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors"
+    #"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors"
+    #"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors"
+    #"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15.bin"
+    #"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin"
 
 )
 
