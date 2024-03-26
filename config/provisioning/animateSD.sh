@@ -58,6 +58,10 @@ LORA_MODELS=(
     "https://civitai.com/api/download/models/87153"
     # detail_tweaker (SD1.5)
     "https://civitai.com/api/download/models/62833"
+    # FaceID
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sd15_lora.safetensors"
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plus_sd15_lora.safetensors"
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
 )
 
 VAE_MODELS=(
