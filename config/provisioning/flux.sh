@@ -38,7 +38,8 @@ NODES=(
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/kijai/ComfyUI-segment-anything-2"
     "https://github.com/Ryuukeisyou/comfyui_face_parsing" 
-    "https://github.com/cubiq/ComfyUI_IPAdapter_plus" 
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    "https://github.com/cubiq/PuLID_ComfyUI"
 )
 
 CHECKPOINT_MODELS=(
