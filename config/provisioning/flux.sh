@@ -41,6 +41,7 @@ NODES=(
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/cubiq/PuLID_ComfyUI"
     "https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
+    "https://github.com/XLabs-AI/x-flux-comfyui"
 )
 
 CHECKPOINT_MODELS=(
