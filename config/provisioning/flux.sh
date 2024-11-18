@@ -33,7 +33,8 @@ NODES=(
     "https://github.com/jamesWalker55/comfyui-various"
     "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
     "https://github.com/godmt/ComfyUI-List-Utils"
-    "https://github.com/crystian/ComfyUI-Crystools" 
+    "https://github.com/crystian/ComfyUI-Crystools"
+    "https://github.com/pamparamm/sd-perturbed-attention"
     # ADDITIONAL
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/kijai/ComfyUI-segment-anything-2"
