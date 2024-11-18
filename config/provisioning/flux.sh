@@ -38,6 +38,7 @@ NODES=(
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/shadowcz007/comfyui-mixlab-nodes"
     "https://github.com/sipherxyz/comfyui-art-venture"
+    "https://github.com/giriss/comfy-image-saver"
     # ADDITIONAL
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/kijai/ComfyUI-segment-anything-2"
