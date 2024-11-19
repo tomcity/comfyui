@@ -42,7 +42,7 @@ NODES=(
     "https://github.com/shadowcz007/comfyui-mixlab-nodes"
     "https://github.com/florestefano1975/comfyui-portrait-master"
     "https://github.com/giriss/comfy-image-saver"
-    "https://github.com/pikenrover/ComfyUI_PRNodes"
+    #"https://github.com/pikenrover/ComfyUI_PRNodes"
     # ADDITIONAL
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/kijai/ComfyUI-segment-anything-2"
