@@ -19,7 +19,6 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/rgthree/rgthree-comfy" 
@@ -42,6 +41,7 @@ NODES=(
     "https://github.com/shadowcz007/comfyui-mixlab-nodes"
     "https://github.com/florestefano1975/comfyui-portrait-master"
     "https://github.com/giriss/comfy-image-saver"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     #"https://github.com/pikenrover/ComfyUI_PRNodes"
     # ADDITIONAL
     "https://github.com/kijai/ComfyUI-Florence2"
