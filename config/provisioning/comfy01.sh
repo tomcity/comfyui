@@ -42,6 +42,8 @@ NODES=(
     "https://github.com/florestefano1975/comfyui-portrait-master"
     "https://github.com/giriss/comfy-image-saver"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    "https://github.com/kijai/ComfyUI-CCSR"
+    "https://github.com/kijai/ComfyUI-SUPIR"
     #"https://github.com/pikenrover/ComfyUI_PRNodes"
     # ADDITIONAL
     "https://github.com/kijai/ComfyUI-Florence2"
