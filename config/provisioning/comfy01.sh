@@ -60,8 +60,6 @@ CHECKPOINT_MODELS=(
 )
 
 CLIP_MODELS=(
-    #"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
-    #"https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors"
 )
 
 UNET_MODELS=(
@@ -74,9 +72,6 @@ LORA_MODELS=(
 )
 
 ESRGAN_MODELS=(
-    #"https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
-    #"https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
-    #"https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
 )
 
 CONTROLNET_MODELS=(
@@ -92,41 +87,41 @@ function provisioning_start() {
     source /opt/ai-dock/bin/venv-set.sh comfyui
 
     # Get licensed models if HF_TOKEN set & valid
-    '''if provisioning_has_valid_hf_token; then
-        UNET_MODELS+=("https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors")
-        VAE_MODELS+=("https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors")
-    else
-        UNET_MODELS+=("https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.safetensors")
-        VAE_MODELS+=("https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors")
-        sed -i 's/flux1-dev\.safetensors/flux1-schnell.safetensors/g' /opt/ComfyUI/web/scripts/defaultGraph.js
-    fi'''
+    #if provisioning_has_valid_hf_token; then
+    #    UNET_MODELS+=("https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.safetensors")
+    #    VAE_MODELS+=("https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/ae.safetensors")
+    #else
+    #    UNET_MODELS+=("https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.safetensors")
+    #    VAE_MODELS+=("https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.safetensors")
+    #    sed -i 's/flux1-dev\.safetensors/flux1-schnell.safetensors/g' /opt/ComfyUI/web/scripts/defaultGraph.js
+    #fi
 
     provisioning_print_header
     provisioning_get_apt_packages
     provisioning_get_default_workflow
-    #provisioning_get_nodes
+    provisioning_get_nodes
     provisioning_get_pip_packages
-    provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/ckpt" \
-        "${CHECKPOINT_MODELS[@]}"
-    provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/unet" \
-        "${UNET_MODELS[@]}"
-    provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/lora" \
-        "${LORA_MODELS[@]}"
-    provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/controlnet" \
-        "${CONTROLNET_MODELS[@]}"
-    provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/vae" \
-        "${VAE_MODELS[@]}"
-    provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/clip" \
-        "${CLIP_MODELS[@]}"
-    provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
-        "${ESRGAN_MODELS[@]}"
+    #provisioning_get_models \
+    #    "${WORKSPACE}/storage/stable_diffusion/models/ckpt" \
+    #    "${CHECKPOINT_MODELS[@]}"
+    #provisioning_get_models \
+    #    "${WORKSPACE}/storage/stable_diffusion/models/unet" \
+    #    "${UNET_MODELS[@]}"
+    #provisioning_get_models \
+    #    "${WORKSPACE}/storage/stable_diffusion/models/lora" \
+    #    "${LORA_MODELS[@]}"
+    #provisioning_get_models \
+    #    "${WORKSPACE}/storage/stable_diffusion/models/controlnet" \
+    #    "${CONTROLNET_MODELS[@]}"
+    #provisioning_get_models \
+    #    "${WORKSPACE}/storage/stable_diffusion/models/vae" \
+    #    "${VAE_MODELS[@]}"
+    #provisioning_get_models \
+    #    "${WORKSPACE}/storage/stable_diffusion/models/clip" \
+    #    "${CLIP_MODELS[@]}"
+    #provisioning_get_models \
+    #    "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
+    #    "${ESRGAN_MODELS[@]}"
     provisioning_print_end
 }
 
