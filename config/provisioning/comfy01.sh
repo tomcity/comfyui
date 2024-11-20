@@ -40,20 +40,25 @@ NODES=(
     "https://github.com/sipherxyz/comfyui-art-venture"
     "https://github.com/theUpsider/ComfyUI-Logic"
     "https://github.com/shadowcz007/comfyui-mixlab-nodes"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/florestefano1975/comfyui-portrait-master"
     "https://github.com/giriss/comfy-image-saver"
     "https://github.com/kijai/ComfyUI-CCSR"
     "https://github.com/kijai/ComfyUI-SUPIR"
     #"https://github.com/pikenrover/ComfyUI_PRNodes"
-    # ADDITIONAL
+    # SEGMENTATION
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/kijai/ComfyUI-segment-anything-2"
     "https://github.com/Ryuukeisyou/comfyui_face_parsing" 
-    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    # LLM
+    "https://github.com/stavsap/comfyui-ollama"
+    "https://github.com/glibsonoran/Plush-for-ComfyUI"
+    # SDXL
     "https://github.com/cubiq/PuLID_ComfyUI"
-    "https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
-    "https://github.com/XLabs-AI/x-flux-comfyui"
     "https://github.com/TheMistoAI/ComfyUI-Anyline"
+    # FLUX
+    "https://github.com/XLabs-AI/x-flux-comfyui"
+    "https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
 )
 
 CHECKPOINT_MODELS=(
