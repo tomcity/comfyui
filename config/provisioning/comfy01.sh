@@ -20,6 +20,7 @@ PIP_PACKAGES=(
 
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/rgthree/rgthree-comfy" 
