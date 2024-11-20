@@ -60,6 +60,13 @@ NODES=(
     # FLUX
     "https://github.com/XLabs-AI/x-flux-comfyui"
     "https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
+    # LoRA Training
+    "https://github.com/omar92/ComfyUI-QualityOfLifeSuit_Omar92"
+    "https://github.com/LEv145/images-grid-comfy-plugin"
+    "https://github.com/idrirap/ComfyUI-Lora-Auto-Trigger-Words"
+    "https://github.com/jitcoder/lora-info"
+    "https://github.com/ycyy/ComfyUI-YCYY-LoraInfo"
+    "https://github.com/BlackVortexAI/ComfyUI-BVortexNodes"
 )
 
 CHECKPOINT_MODELS=(
