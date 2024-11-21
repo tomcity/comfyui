@@ -60,6 +60,7 @@ NODES=(
     # FLUX
     "https://github.com/XLabs-AI/x-flux-comfyui"
     "https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
+    "https://github.com/fairy-root/Flux-Prompt-Generator"
     # LoRA Training
     "https://github.com/omar92/ComfyUI-QualityOfLifeSuit_Omar92"
     "https://github.com/LEv145/images-grid-comfy-plugin"
