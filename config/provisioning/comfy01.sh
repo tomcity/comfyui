@@ -19,7 +19,6 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
@@ -48,9 +47,7 @@ NODES=(
     # UPSCALER
     "https://github.com/kijai/ComfyUI-CCSR"
     "https://github.com/kijai/ComfyUI-SUPIR"
-    
     #"https://github.com/pikenrover/ComfyUI_PRNodes"
-    
     # LIVE PORTRAIT
     "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
     # SEGMENTATION
