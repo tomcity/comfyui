@@ -47,7 +47,7 @@ NODES=(
     #"https://github.com/kijai/ComfyUI-SUPIR"
     #"https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     ###"https://github.com/pikenrover/ComfyUI_PRNodes"
-    # PORTRAIT MASTER + LIVE PORTRAIT
+    # --- PORTRAIT MASTER + LIVE PORTRAIT ---
     #"https://github.com/florestefano1975/comfyui-portrait-master"
     #"https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
     # --- SEGMENTATION ---
