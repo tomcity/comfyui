@@ -19,15 +19,13 @@ PIP_PACKAGES=(
 )
 
 NODES=(
-    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/kijai/ComfyUI-KJNodes"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/rgthree/rgthree-comfy" 
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
-    "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/pamparamm/sd-perturbed-attention"
-    "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
     "https://github.com/melMass/comfy_mtb"
     "https://github.com/receyuki/comfyui-prompt-reader-node"
     "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
@@ -36,17 +34,25 @@ NODES=(
     "https://github.com/godmt/ComfyUI-List-Utils"
     "https://github.com/crystian/ComfyUI-Crystools" 
     "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
-    "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/sipherxyz/comfyui-art-venture"
     "https://github.com/theUpsider/ComfyUI-Logic"
     "https://github.com/shadowcz007/comfyui-mixlab-nodes"
+    "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/florestefano1975/comfyui-portrait-master"
     "https://github.com/giriss/comfy-image-saver"
+    # POST PROCESSING
+     #"https://github.com/EllangoK/ComfyUI-post-processing-nodes"
+    "https://github.com/digitaljohn/comfyui-propost"
+    # UPSCALER
     "https://github.com/kijai/ComfyUI-CCSR"
     "https://github.com/kijai/ComfyUI-SUPIR"
+    
     #"https://github.com/pikenrover/ComfyUI_PRNodes"
+    
+    # LIVE PORTRAIT
+    "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
     # SEGMENTATION
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/kijai/ComfyUI-segment-anything-2"
@@ -54,6 +60,7 @@ NODES=(
     # LLM
     "https://github.com/stavsap/comfyui-ollama"
     "https://github.com/glibsonoran/Plush-for-ComfyUI"
+    "https://github.com/ronniebasak/ComfyUI-Tara-LLM-Integration"
     # SDXL
     "https://github.com/cubiq/PuLID_ComfyUI"
     "https://github.com/TheMistoAI/ComfyUI-Anyline"
@@ -68,6 +75,9 @@ NODES=(
     "https://github.com/jitcoder/lora-info"
     "https://github.com/ycyy/ComfyUI-YCYY-LoraInfo"
     "https://github.com/BlackVortexAI/ComfyUI-BVortexNodes"
+    # Conflicted at last...
+    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    "https://github.com/WASasquatch/was-node-suite-comfyui"
 )
 
 CHECKPOINT_MODELS=(
