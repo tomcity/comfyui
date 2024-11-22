@@ -40,8 +40,8 @@ NODES=(
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/giriss/comfy-image-saver"
     # --- POST PROCESSING ---
-    ###"https://github.com/EllangoK/ComfyUI-post-processing-nodes"
-    "https://github.com/digitaljohn/comfyui-propost"
+    "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
+    ###"https://github.com/digitaljohn/comfyui-propost"
     # --- UPSCALER ---
     #"https://github.com/kijai/ComfyUI-CCSR"
     #"https://github.com/kijai/ComfyUI-SUPIR"
