@@ -49,6 +49,7 @@ NODES=(
     # --- PORTRAIT MASTER + LIVE PORTRAIT ---
     "https://github.com/florestefano1975/comfyui-portrait-master"
     "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
+    #"https://github.com/kijai/ComfyUI-LivePortraitKJ"
     # --- SEGMENTATION ---
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/kijai/ComfyUI-segment-anything-2"
