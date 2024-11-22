@@ -21,12 +21,9 @@ PIP_PACKAGES=(
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/kijai/ComfyUI-KJNodes"
-    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/rgthree/rgthree-comfy" 
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
-    "https://github.com/pamparamm/sd-perturbed-attention"
     "https://github.com/melMass/comfy_mtb"
-    "https://github.com/receyuki/comfyui-prompt-reader-node"
     "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
     "https://github.com/jamesWalker55/comfyui-various"
     "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
@@ -37,42 +34,45 @@ NODES=(
     "https://github.com/sipherxyz/comfyui-art-venture"
     "https://github.com/theUpsider/ComfyUI-Logic"
     "https://github.com/shadowcz007/comfyui-mixlab-nodes"
-    "https://github.com/Fannovel16/comfyui_controlnet_aux"
-    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
-    "https://github.com/florestefano1975/comfyui-portrait-master"
-    "https://github.com/giriss/comfy-image-saver"
-    # POST PROCESSING
-     #"https://github.com/EllangoK/ComfyUI-post-processing-nodes"
-    "https://github.com/digitaljohn/comfyui-propost"
-    # UPSCALER
-    "https://github.com/kijai/ComfyUI-CCSR"
-    "https://github.com/kijai/ComfyUI-SUPIR"
-    #"https://github.com/pikenrover/ComfyUI_PRNodes"
-    # LIVE PORTRAIT
-    "https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
-    # SEGMENTATION
-    "https://github.com/kijai/ComfyUI-Florence2"
-    "https://github.com/kijai/ComfyUI-segment-anything-2"
-    "https://github.com/Ryuukeisyou/comfyui_face_parsing" 
-    # LLM
-    "https://github.com/stavsap/comfyui-ollama"
+    #"https://github.com/receyuki/comfyui-prompt-reader-node"
+    #"https://github.com/pamparamm/sd-perturbed-attention"
+    #"https://github.com/Fannovel16/comfyui_controlnet_aux"
+    #"https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    #"https://github.com/giriss/comfy-image-saver"
+    # --- POST PROCESSING ---
+    ###"https://github.com/EllangoK/ComfyUI-post-processing-nodes"
+    #"https://github.com/digitaljohn/comfyui-propost"
+    # --- UPSCALER ---
+    #"https://github.com/kijai/ComfyUI-CCSR"
+    #"https://github.com/kijai/ComfyUI-SUPIR"
+    #"https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    ###"https://github.com/pikenrover/ComfyUI_PRNodes"
+    # PORTRAIT MASTER + LIVE PORTRAIT
+    #"https://github.com/florestefano1975/comfyui-portrait-master"
+    #"https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
+    # --- SEGMENTATION ---
+    #"https://github.com/kijai/ComfyUI-Florence2"
+    #"https://github.com/kijai/ComfyUI-segment-anything-2"
+    #"https://github.com/Ryuukeisyou/comfyui_face_parsing" 
+    # --- LLM ---
+    #"https://github.com/stavsap/comfyui-ollama"
     "https://github.com/glibsonoran/Plush-for-ComfyUI"
-    "https://github.com/ronniebasak/ComfyUI-Tara-LLM-Integration"
-    # SDXL
-    "https://github.com/cubiq/PuLID_ComfyUI"
-    "https://github.com/TheMistoAI/ComfyUI-Anyline"
-    # FLUX
-    "https://github.com/XLabs-AI/x-flux-comfyui"
-    "https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
-    "https://github.com/fairy-root/Flux-Prompt-Generator"
-    # LoRA Training
-    "https://github.com/omar92/ComfyUI-QualityOfLifeSuit_Omar92"
-    "https://github.com/LEv145/images-grid-comfy-plugin"
-    "https://github.com/idrirap/ComfyUI-Lora-Auto-Trigger-Words"
-    "https://github.com/jitcoder/lora-info"
-    "https://github.com/ycyy/ComfyUI-YCYY-LoraInfo"
-    "https://github.com/BlackVortexAI/ComfyUI-BVortexNodes"
-    # Conflicted at last...
+    #"https://github.com/ronniebasak/ComfyUI-Tara-LLM-Integration"
+    # --- SDXL ---
+    #"https://github.com/cubiq/PuLID_ComfyUI"
+    #"https://github.com/TheMistoAI/ComfyUI-Anyline"
+    # --- FLUX ---
+    #"https://github.com/XLabs-AI/x-flux-comfyui"
+    #"https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
+    #"https://github.com/fairy-root/Flux-Prompt-Generator"
+    # --- LoRA Training ---
+    #"https://github.com/omar92/ComfyUI-QualityOfLifeSuit_Omar92"
+    #"https://github.com/LEv145/images-grid-comfy-plugin"
+    #"https://github.com/idrirap/ComfyUI-Lora-Auto-Trigger-Words"
+    #"https://github.com/jitcoder/lora-info"
+    #"https://github.com/ycyy/ComfyUI-YCYY-LoraInfo"
+    #"https://github.com/BlackVortexAI/ComfyUI-BVortexNodes"
+    # --- Conflicted at last ---
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
 )
