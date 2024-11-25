@@ -39,6 +39,7 @@ NODES=(
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/giriss/comfy-image-saver"
+    "https://github.com/ShmuelRonen/ComfyUI-FreeMemory"
     # --- POST PROCESSING ---
     "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
     ###"https://github.com/digitaljohn/comfyui-propost"
