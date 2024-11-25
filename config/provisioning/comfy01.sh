@@ -35,7 +35,7 @@ NODES=(
     "https://github.com/theUpsider/ComfyUI-Logic"
     "https://github.com/shadowcz007/comfyui-mixlab-nodes"
     "https://github.com/receyuki/comfyui-prompt-reader-node"
-    #"https://github.com/pamparamm/sd-perturbed-attention"
+    "https://github.com/pamparamm/sd-perturbed-attention"
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/giriss/comfy-image-saver"
