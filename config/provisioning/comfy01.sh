@@ -61,8 +61,8 @@ NODES=(
     "https://github.com/glibsonoran/Plush-for-ComfyUI"
     #"https://github.com/ronniebasak/ComfyUI-Tara-LLM-Integration"
     # --- SDXL ---
-    #"https://github.com/cubiq/PuLID_ComfyUI"
-    #"https://github.com/TheMistoAI/ComfyUI-Anyline"
+    "https://github.com/cubiq/PuLID_ComfyUI"
+    "https://github.com/TheMistoAI/ComfyUI-Anyline"
     # --- FLUX ---
     #"https://github.com/XLabs-AI/x-flux-comfyui"
     #"https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
