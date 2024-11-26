@@ -70,6 +70,7 @@ NODES=(
     #"https://github.com/sipie800/ComfyUI-PuLID-Flux-Enhanced"
     #"https://github.com/fairy-root/Flux-Prompt-Generator"
     "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
+    "https://github.com/kaibioinfo/ComfyUI_AdvancedRefluxControl"
     # --- LoRA Training ---
     #"https://github.com/omar92/ComfyUI-QualityOfLifeSuit_Omar92"
     #"https://github.com/LEv145/images-grid-comfy-plugin"
