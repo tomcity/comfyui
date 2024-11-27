@@ -42,6 +42,7 @@ NODES=(
     "https://github.com/Acly/comfyui-inpaint-nodes"
     "https://github.com/john-mnz/ComfyUI-Inspyrenet-Rembg"
     "https://github.com/yolain/ComfyUI-Easy-Use"
+    "https://github.com/chflame163/ComfyUI_LayerStyle"
     #"https://github.com/ShmuelRonen/ComfyUI-FreeMemory"
     # --- POST PROCESSING ---
     "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
