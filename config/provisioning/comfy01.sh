@@ -40,6 +40,7 @@ NODES=(
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     "https://github.com/giriss/comfy-image-saver"
     "https://github.com/Acly/comfyui-inpaint-nodes"
+    "https://github.com/john-mnz/ComfyUI-Inspyrenet-Rembg"
     #"https://github.com/ShmuelRonen/ComfyUI-FreeMemory"
     # --- POST PROCESSING ---
     "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
