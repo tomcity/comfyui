@@ -58,6 +58,7 @@ NODES=(
     #"https://github.com/kijai/ComfyUI-LivePortraitKJ"
     "https://github.com/cubiq/ComfyUI_InstantID"
     "https://github.com/Gourieff/comfyui-reactor-node"
+    "https://github.com/kijai/ComfyUI-IC-Light"
     # --- SEGMENTATION ---
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/kijai/ComfyUI-segment-anything-2"
