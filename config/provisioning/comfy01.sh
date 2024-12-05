@@ -49,7 +49,7 @@ NODES=(
     ###"https://github.com/digitaljohn/comfyui-propost"
     # --- UPSCALER ---
     #"https://github.com/kijai/ComfyUI-CCSR"
-    #"https://github.com/kijai/ComfyUI-SUPIR"
+    "https://github.com/kijai/ComfyUI-SUPIR"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/xiaoxiaodesha/hd_node"
     # --- PORTRAIT MASTER + LIVE PORTRAIT ---
