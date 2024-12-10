@@ -46,6 +46,7 @@ NODES=(
     "https://github.com/gseth/ControlAltAI-Nodes"
     "https://github.com/Jonseed/ComfyUI-Detail-Daemon"
     "https://github.com/yorkane/ComfyUI-KYNode"
+    "https://github.com/2kpr/ComfyUI-PMRF"
     #"https://github.com/chflame163/ComfyUI_LayerStyle"
     #"https://github.com/ShmuelRonen/ComfyUI-FreeMemory"
     # --- POST PROCESSING ---
