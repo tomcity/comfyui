@@ -43,11 +43,11 @@ NODES=(
     "https://github.com/john-mnz/ComfyUI-Inspyrenet-Rembg"
     "https://github.com/yolain/ComfyUI-Easy-Use"
     "https://github.com/chflame163/ComfyUI_LayerStyle"
+    "https://github.com/chflame163/ComfyUI_LayerStyle_Advance"
     "https://github.com/gseth/ControlAltAI-Nodes"
     "https://github.com/Jonseed/ComfyUI-Detail-Daemon"
     "https://github.com/yorkane/ComfyUI-KYNode"
     #"https://github.com/2kpr/ComfyUI-PMRF"
-    #"https://github.com/chflame163/ComfyUI_LayerStyle"
     #"https://github.com/ShmuelRonen/ComfyUI-FreeMemory"
     # --- POST PROCESSING ---
     "https://github.com/EllangoK/ComfyUI-post-processing-nodes"
