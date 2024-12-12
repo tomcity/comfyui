@@ -95,6 +95,7 @@ NODES=(
     "https://github.com/chflame163/ComfyUI_CatVTON_Wrapper"
     # --- Conflicted at last ---
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Subpack"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
 )
 
