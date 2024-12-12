@@ -49,6 +49,7 @@ NODES=(
     "https://github.com/yorkane/ComfyUI-KYNode"
     "https://github.com/chrisgoringe/cg-use-everywhere"
     "https://github.com/city96/ComfyUI-GGUF"
+    "https://github.com/robertvoy/ComfyUI-Flux-Continuum"
     #"https://github.com/2kpr/ComfyUI-PMRF"
     #"https://github.com/ShmuelRonen/ComfyUI-FreeMemory"
     # --- POST PROCESSING ---
