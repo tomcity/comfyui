@@ -51,6 +51,7 @@ NODES=(
     "https://github.com/city96/ComfyUI-GGUF"
     "https://github.com/robertvoy/ComfyUI-Flux-Continuum"
     "https://github.com/MaraScott/ComfyUI_MaraScott_Nodes"
+    "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset"
     #"https://github.com/2kpr/ComfyUI-PMRF"
     #"https://github.com/ShmuelRonen/ComfyUI-FreeMemory"
     # --- POST PROCESSING ---
